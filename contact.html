@@ -13,6 +13,7 @@
 
 <body>
 
+    <!-- Header and nav -->
     <div class="container">
         <h1>Sweet Eats Bakery</h1>
         <header>
@@ -25,7 +26,26 @@
             </nav>
     </div>
 
+    <!-- Contact Us form -->
+    <div class="form-container">
+        <form action="action_page.php">
 
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="firstname" placeholder="Your first name...">
+
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="lastname" placeholder="Your last name...">
+
+            <label for="subject">Subject</label>
+            <textarea name="subject" id="subject" placeholder="We are waiting to hear from you!" style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+
+        </form>
+    </div>
+
+
+    <!-- footer and nav -->
     <footer>
         <div class="footer-content">
             <h3>Sweet Eats Bakery</h3>
